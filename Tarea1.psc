@@ -1,6 +1,6 @@
 Algoritmo Tarea1
 	definir num, cifra, sum, contador, hola Como Entero
-	Escribir "Ingrese un número entero"
+	Escribir "Ingrese un nÃºmero entero"
 	Leer num
 	sum<-0
 	contador<-0
@@ -12,14 +12,15 @@ Algoritmo Tarea1
 			contador<- contador + 1
 			hola<-trunc(hola/10)
 		SiNo
-			Escribir " El número no es posistivo"
+			Escribir " El nÃºmero no es positivo"
 			hola<-0
 		FinSi
 	FinMientras
 	si num > 0 Entonces
-		Escribir " El número es positivo "
+		Escribir " El nÃºmero es positivo "
 		Escribir "Tiene " contador " cifras"
 		Escribir " La suma de sus cifras es: ", sum
 	FinSi
 	
 FinAlgoritmo
+
